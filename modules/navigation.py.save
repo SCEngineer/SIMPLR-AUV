@@ -1,0 +1,9 @@
+# navigation.py
+
+class Navigation:
+    def __init__(self):
+        self.state = {"x": 0, "y": 0, "z": 0}
+
+    def get_state(self):
+        # TODO: Add real sensor readings or dead reckoning
+        return self.state
