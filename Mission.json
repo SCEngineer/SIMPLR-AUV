@@ -1,0 +1,15 @@
+{
+  "mission": [
+    { "mode": "IDLE", "duration": 10 },
+    { "mode": "GPS_FIX" },
+    { "mode": "TELEMETRY" },
+    { "mode": "GO_TO_SUBMERGED_TRIM" },
+    { "mode": "DIVE", "target_depth": 3.0 },
+    { "mode": "SWIM_TO_WAYPOINT", "waypoint": [34.0001, -117.0001], "speed": 1.0 },
+    { "mode": "CLIMB", "target_depth": 0.5 },
+    { "mode": "GO_TO_SURFACED_TRIM" },
+    { "mode": "GPS_FIX" },
+    { "mode": "TELEMETRY" },
+    { "mode": "IDLE", "duration": 5 }
+  ]
+}
